@@ -17,22 +17,20 @@ profile:
 sources:
   - source_id: src_a90cf3cd7b895319ad5758d8f06382c0e4aba138bfb4b127d2d013995f99b906
     url: https://next-auth.js.org
-  - source_id: src_2427d7f74372287e384983a26790642577ed7c5364728f6cdec2cad89238a00a
-    url: https://github.com/nextauthjs/next-auth
 programs: []
 offers:
   - offer_id: off_01m4aqzaqw13nhcjcnbkqfweet
     offer_slug: free-open-source-library
     offer_slug_aliases: []
-    title: Free open-source NextAuth.js library
-    summary: "Any developer can add NextAuth.js to a Next.js app for free: it is open source under the ISC license, self-hosted, and needs no vendor account, application, or approval."
+    title: NextAuth.js open-source authentication library
+    summary: "NextAuth.js is an open-source authentication library for Next.js: install via npm, configure providers from the docs. Built-in OAuth, email/passwordless sign-in, and any username/password store, with your own database or none."
     lifecycle:
       status: active
       effective_from: 2026-10-07T08:34:11.000Z
     economics:
       benefits:
         - benefit_id: ben_01
-          description: Complete NextAuth.js authentication library for self-hosted use
+          description: Open-source NextAuth.js authentication library for Next.js apps, installed via npm
           kind: free-service
           service: NextAuth.js open-source library
       consideration:
@@ -42,7 +40,7 @@ offers:
         criterion_id: cri_requirement_01
         kind: manual
         reason: not-machine-evaluable
-        statement: Open to any developer; the library is public open source under the ISC license, with no application, account, or vendor approval required.
+        statement: Any developer can add the library to a Next.js app by installing the npm package and configuring providers from the documentation.
     roles:
       terms_authority_entity_id: ent_01m4aqzaqtv453fgy6qmhwt0nc
       access_operator_entity_id: ent_01m4aqzaqtv453fgy6qmhwt0nc
@@ -50,7 +48,6 @@ offers:
       availability: public
       method: other
       url: https://next-auth.js.org
-      instructions: Install the next-auth package and configure providers with the first-party documentation; no sign-up or approval is required.
+      instructions: Install the next-auth npm package and configure providers using the documentation on next-auth.js.org.
     source_ids:
       - src_a90cf3cd7b895319ad5758d8f06382c0e4aba138bfb4b127d2d013995f99b906
-      - src_2427d7f74372287e384983a26790642577ed7c5364728f6cdec2cad89238a00a
